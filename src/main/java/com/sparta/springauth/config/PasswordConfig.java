@@ -12,7 +12,4 @@ public class PasswordConfig {
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
-
-    public static class Chicken {
-    }
 }
